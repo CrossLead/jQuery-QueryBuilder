@@ -13,7 +13,7 @@
     else {
         factory(root.jQuery, root.doT);
     }
-}(this, function($, doT) {
+}((typeof window !== 'undefined' ? window : this), function($, doT) {
 "use strict";
 
 // CLASS DEFINITION
